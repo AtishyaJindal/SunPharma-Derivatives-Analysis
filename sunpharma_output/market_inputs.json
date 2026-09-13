@@ -1,0 +1,27 @@
+{
+  "ticker": "SUNPHARMA.NS",
+  "valuation_date": "2026-09-01",
+  "spot": 1895.17,
+  "risk_free_rate": 0.065,
+  "historical_volatility": 0.1439212048131318,
+  "daily_mean_return": 0.0015335050126771964,
+  "daily_std_dev": 0.00906618372200807,
+  "skewness": 0.5666146504191294,
+  "kurtosis": 5.363349899053016,
+  "observations": 65,
+  "strikes_for_analysis": [
+    1800.411,
+    1857.267,
+    1895.17,
+    1933.073,
+    1989.929
+  ],
+  "maturities_days": [
+    30,
+    60,
+    90
+  ],
+  "generated_at": "2026-09-04T16:31:15.299326+00:00",
+  "spot_source": "Put-call parity average across 6 near-ATM strikes, Sep-29-2026 expiry, NSE option chain",
+  "spot_note": "Yahoo Finance's last close (1984.8) was stale relative to the option chain snapshot; using the parity-implied spot instead keeps pricing/Greeks/VaR internally consistent."
+}
